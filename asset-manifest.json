@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TheCrwnClthing/static/css/main.6510c436.chunk.css",
-    "main.js": "/TheCrwnClthing/static/js/main.473ded49.chunk.js",
-    "main.js.map": "/TheCrwnClthing/static/js/main.473ded49.chunk.js.map",
-    "runtime-main.js": "/TheCrwnClthing/static/js/runtime-main.40ed81fe.js",
-    "runtime-main.js.map": "/TheCrwnClthing/static/js/runtime-main.40ed81fe.js.map",
-    "static/js/2.e0181e8d.chunk.js": "/TheCrwnClthing/static/js/2.e0181e8d.chunk.js",
-    "static/js/2.e0181e8d.chunk.js.map": "/TheCrwnClthing/static/js/2.e0181e8d.chunk.js.map",
-    "index.html": "/TheCrwnClthing/index.html",
-    "precache-manifest.0e89af611d5ecaef9a3c802258f6bcf9.js": "/TheCrwnClthing/precache-manifest.0e89af611d5ecaef9a3c802258f6bcf9.js",
-    "service-worker.js": "/TheCrwnClthing/service-worker.js",
-    "static/css/main.6510c436.chunk.css.map": "/TheCrwnClthing/static/css/main.6510c436.chunk.css.map",
-    "static/js/2.e0181e8d.chunk.js.LICENSE.txt": "/TheCrwnClthing/static/js/2.e0181e8d.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "/TheCrwnClthing/static/media/crown.ed28accb.svg",
-    "static/media/shopping-bag.30f07071.svg": "/TheCrwnClthing/static/media/shopping-bag.30f07071.svg"
+    "main.css": "/TheCrwnClothing/static/css/main.6510c436.chunk.css",
+    "main.js": "/TheCrwnClothing/static/js/main.473ded49.chunk.js",
+    "main.js.map": "/TheCrwnClothing/static/js/main.473ded49.chunk.js.map",
+    "runtime-main.js": "/TheCrwnClothing/static/js/runtime-main.13174988.js",
+    "runtime-main.js.map": "/TheCrwnClothing/static/js/runtime-main.13174988.js.map",
+    "static/js/2.e0181e8d.chunk.js": "/TheCrwnClothing/static/js/2.e0181e8d.chunk.js",
+    "static/js/2.e0181e8d.chunk.js.map": "/TheCrwnClothing/static/js/2.e0181e8d.chunk.js.map",
+    "index.html": "/TheCrwnClothing/index.html",
+    "precache-manifest.6236a8fa49034359a9d50b91668915e5.js": "/TheCrwnClothing/precache-manifest.6236a8fa49034359a9d50b91668915e5.js",
+    "service-worker.js": "/TheCrwnClothing/service-worker.js",
+    "static/css/main.6510c436.chunk.css.map": "/TheCrwnClothing/static/css/main.6510c436.chunk.css.map",
+    "static/js/2.e0181e8d.chunk.js.LICENSE.txt": "/TheCrwnClothing/static/js/2.e0181e8d.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/TheCrwnClothing/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/TheCrwnClothing/static/media/shopping-bag.30f07071.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.40ed81fe.js",
+    "static/js/runtime-main.13174988.js",
     "static/js/2.e0181e8d.chunk.js",
     "static/css/main.6510c436.chunk.css",
     "static/js/main.473ded49.chunk.js"
