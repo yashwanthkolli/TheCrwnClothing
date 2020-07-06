@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PerfectN008/TheCrwnClthing/static/css/main.6510c436.chunk.css",
+    "main.js": "/PerfectN008/TheCrwnClthing/static/js/main.473ded49.chunk.js",
+    "main.js.map": "/PerfectN008/TheCrwnClthing/static/js/main.473ded49.chunk.js.map",
+    "runtime-main.js": "/PerfectN008/TheCrwnClthing/static/js/runtime-main.12180fb4.js",
+    "runtime-main.js.map": "/PerfectN008/TheCrwnClthing/static/js/runtime-main.12180fb4.js.map",
+    "static/js/2.e0181e8d.chunk.js": "/PerfectN008/TheCrwnClthing/static/js/2.e0181e8d.chunk.js",
+    "static/js/2.e0181e8d.chunk.js.map": "/PerfectN008/TheCrwnClthing/static/js/2.e0181e8d.chunk.js.map",
+    "index.html": "/PerfectN008/TheCrwnClthing/index.html",
+    "precache-manifest.bf941cdd7bf60af231dad05f5813dd39.js": "/PerfectN008/TheCrwnClthing/precache-manifest.bf941cdd7bf60af231dad05f5813dd39.js",
+    "service-worker.js": "/PerfectN008/TheCrwnClthing/service-worker.js",
+    "static/css/main.6510c436.chunk.css.map": "/PerfectN008/TheCrwnClthing/static/css/main.6510c436.chunk.css.map",
+    "static/js/2.e0181e8d.chunk.js.LICENSE.txt": "/PerfectN008/TheCrwnClthing/static/js/2.e0181e8d.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/PerfectN008/TheCrwnClthing/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/PerfectN008/TheCrwnClthing/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12180fb4.js",
+    "static/js/2.e0181e8d.chunk.js",
+    "static/css/main.6510c436.chunk.css",
+    "static/js/main.473ded49.chunk.js"
+  ]
+}
