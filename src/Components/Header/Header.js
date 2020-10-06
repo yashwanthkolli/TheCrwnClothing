@@ -1,39 +1,39 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import {auth} from '../../Firebase/Firebase';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import { selectCurrentUser } from '../../Redux/User/UserSelectors';
 import { selectCartHidden } from '../../Redux/Cart/CartSelectors';
+import { signOutStart } from '../../Redux/User/UserActions';
 
-import {ReactComponent as Logo} from '../../Assets/crown.svg'
+import { ReactComponent as Logo } from '../../Assets/crown.svg'
 
-import './Header.Style.scss';
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionDiv, OptionLink } from './Header.Styles'
+
 import CartIcon from '../CartIcon/CartIcon';
 import CartDropdown from '../CartDropdown/CartDropdown';
 
-const Header = ({currentUser, hidden}) => (
-    <div className='header'>
-        <Link className='logo-container' to='/'>
+const Header = ({ currentUser, hidden, signOutStart }) => (
+    <HeaderContainer>
+        <LogoContainer to='/'>
             <Logo className='logo' />
-        </Link> 
-        <div className='options'>
-            <Link to='/shop' className='option'>Shop</Link>
-            <Link to='/contact' className='option'>Contact</Link>
+        </LogoContainer>
+        <OptionsContainer>
+            <OptionLink to='/shop'>Shop</OptionLink>
+            <OptionLink to='/contact'>Contact</OptionLink>
             {
-                currentUser ? 
-                <div className='option' onClick={() => auth.signOut()}>Sign Out</div>
-                :
-                <Link className='option' to='/signIn'>Sign In</Link>
+                currentUser ?
+                    <OptionDiv as='div' onClick={signOutStart}>Sign Out</OptionDiv>
+                    :
+                    <OptionLink to='/signIn'>Sign In</OptionLink>
             }
             <CartIcon />
-        </div>
+        </OptionsContainer>
         {
             hidden ? null :
-            <CartDropdown />
+                <CartDropdown />
         }
-    </div>
+    </HeaderContainer>
 )
 
 const mapStateToProps = createStructuredSelector({
@@ -41,4 +41,8 @@ const mapStateToProps = createStructuredSelector({
     hidden: selectCartHidden
 })
 
-export default connect(mapStateToProps)(Header);
+const mapDispatchToProps = dispatch => ({
+    signOutStart: () => dispatch(signOutStart())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
